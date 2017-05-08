@@ -18,7 +18,7 @@ namespace ReplayParser.Loader
         public static IReplay LoadReplay(string filename)
         {
             if (!File.Exists(filename))
-                throw new FileNotFoundException("Filen '" + filename + "' blev ikke fundet.");
+                throw new FileNotFoundException("File " + filename + " not found.");
 
             
 

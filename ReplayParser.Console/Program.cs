@@ -17,13 +17,12 @@ namespace ReplayParser.Console
 
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            var replay = ReplayLoader.LoadReplay("1-bD.FlyKick vs FR.H.rep(598).rep");
+            var replay = ReplayLoader.LoadReplay("1.rep");
             sw.Stop();
 
             System.Console.WriteLine("Parse Time: " + sw.Elapsed.TotalSeconds);
             PrintActionType<BuildAction>(replay);
-
-            System.Console.ReadKey();
+            PrintActionType<GameChatAction>(replay);
         }
 
         public static void PrintActionType<T>(IReplay replay)

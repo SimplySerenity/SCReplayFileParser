@@ -48,12 +48,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="0022_PvT_Vanko_buralzzan.rep%28281%29.rep">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="1-bD.FlyKick vs FR.H.rep%28598%29.rep">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
